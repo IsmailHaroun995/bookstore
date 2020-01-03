@@ -99,7 +99,7 @@ namespace bookstore.Controllers
 
                 Book book = new Book
                 {
-                    Title = viewModel.Title,
+                    Title =  viewModel.Title,
                     Description = viewModel.Description,
                     Author = authorRepository.Find(viewModel.AuthorId)
 
